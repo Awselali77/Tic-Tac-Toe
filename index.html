@@ -15,6 +15,8 @@ th, td {
 </head>
 <body>
 <h1>tic tac toe (game)</h1>
+<p id="player1">Player 1 wins = 0</p>
+<p id="player2">Player 2 wins = 0</p>
 <p id="player">Player 1 turns</p>
 <table style="width: 1%">
 	<tr>
@@ -33,6 +35,9 @@ th, td {
 		<th id="9" onclick="onClick(9)"></th>
 	</tr>
 </table>
+<button id = "play" onclick="play()">Play Again</button>
+<button id = "rest" onclick = "rest()">Reset Result</button>
+
 
 
 </body>
